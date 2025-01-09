@@ -1,11 +1,47 @@
 html {
     background-color: black;
+    font-family: Verdana;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
-    font-family: Verdana;
-    font-weight: normal;
     font-size: 50px;
     color: white;
-    text-align: center;
+    font-weight: normal;
+}
+
+a {
+    font-size: 16px;
+    color: aquamarine;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 21px;
+    color: gray;
+}
+
+.copyright {
+    width: 100%;
+    font-size: 21px;
+    color: gray;
+    text-align: right;
+
+}
+
+img {
+    margin-bottom: 20px;
 }
